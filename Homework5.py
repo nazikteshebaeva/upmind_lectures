@@ -178,7 +178,7 @@
 # string.remove("tiger")
 # print(string)
 
-#34 work on this
+#34 work on it
 # numbers = [5, -2, 3, -1, 6, -3]
 
 
