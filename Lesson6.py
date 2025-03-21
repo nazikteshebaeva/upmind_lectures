@@ -15,3 +15,14 @@ ping<IP/hostname> - Test network connection
 tasklist - View running processes
 taskkill/PID<pid>/F - Forcefully end a process
 """
+
+"""
+create a new repository on the command line:
+echo "# upmind_lectures" >> Lesson1.py
+git init
+git add Lesson1.py
+git commit -m "first commit"
+git branch -M main 
+git remote add origin git@github.com:nazikteshebaeva/upmind_lectures.git 
+git push -u origin main
+"""
