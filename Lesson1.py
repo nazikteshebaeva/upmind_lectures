@@ -1,4 +1,4 @@
-# Theme : DataTypes; INTSTRING; FLOAT; BOOL
+# Theme : DataTypes; INT, STRING; FLOAT; BOOL
 # one sentence comment
 
 """

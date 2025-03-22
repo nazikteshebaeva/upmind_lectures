@@ -25,4 +25,8 @@ git commit -m "first commit"
 git branch -M main 
 git remote add origin git@github.com:nazikteshebaeva/upmind_lectures.git 
 git push -u origin main
+
+if there are any problem and I want to change the info inside (if they ask to modify):
+git add Lesson6.py
+git status 
 """
