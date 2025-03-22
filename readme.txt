@@ -10,3 +10,5 @@ At the fourth lesson we learned conditions: if, elif, else as well as ternary co
 At the last lesson was about Lists.
 
 We do have classes three days a week.
+
+I am adding more information to check the repository.

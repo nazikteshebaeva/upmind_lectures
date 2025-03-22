@@ -198,14 +198,12 @@
 
 #38
 # numbers = [12, 5, 8, 15, 30]
-# num1 = 5
-# num2 = 8
-# print(num1 - num2)
+# print(numbers[0] - numbers[-1])
 
 #39!!!
 # words = ["apple", "banana", "cherry", "date"]
-# word1 = "banana"
-# word1.reverse("banana")
+# word1 = words[1]
+# print(word1[::-1])
 
 #40
 # str3 = [[2, 4, 6], [1, 3, 5], [8, 10, 12]]
