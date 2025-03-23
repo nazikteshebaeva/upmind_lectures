@@ -1,6 +1,6 @@
 #1
-# login1 = "Enter your login: "
-# password1 = "Enter your password: "
+# login1 = input("Enter your login: ")
+# password1 = input("Enter your password: ")
 #
 # if login1 == "admin" and password1 == "1234":
 #     print("Access was successful")
