@@ -120,7 +120,7 @@
 # string = input("Enter a string: ")
 # print(string.swapcase())
 
-#22
+#22 - try to use another method to make it easier.
 # numbers = [5, -3, 7, -1, 0]
 # if numbers[0] >= numbers[1]:
 #     print("Index 0 is max")
@@ -257,3 +257,8 @@
 
 #40
 # string = input("Enter a word: ")
+# print(len(string))
+# if len(string) % 2 == 0:
+#     print("string[len(string) // 2")
+# else:
+#     print("string[len(string) // 2 - 1 ")
