@@ -61,22 +61,22 @@
 # grocery["juice"] = 18
 # print(grocery)
 
-#10
+#10 how len works!!!
 # dictionary = {
 #     "book": "Carrie Soto is back",
 #     "date": 2024,
 #     "author": "TJR"
 # }
-# dictionary.len()
+# len({dictionary})
 
 #11
-cars = {
-    "GGG693": "Darling",
-    "GLH781": "Adam",
-    "055CDR": "Cooper"
-}
-print(cars["GLH781"])
-print(cars.get("GLH781"))
+# cars = {
+#     "GGG693": "Darling",
+#     "GLH781": "Adam",
+#     "055CDR": "Cooper"
+# }
+# print(cars["GLH781"])
+# print(cars.get("GLH781"))
 
 #12
 # cars["SZN944"] = "Brian"
@@ -93,12 +93,12 @@ print(cars.get("GLH781"))
 # print(cars.values())
 
 #16
-countries = {
-    "Canada": "Ottawa",
-    "USA": "Washington",
-    "Kyrgyzstan": "Bishkek"
-}
-print(countries.get("USA"))
+# countries = {
+#     "Canada": "Ottawa",
+#     "USA": "Washington",
+#     "Kyrgyzstan": "Bishkek"
+# }
+# print(countries.get("USA"))
 
 #17
 # countries["Kyrgyzstan"] = "Frunze"
@@ -174,8 +174,15 @@ print(countries.get("USA"))
 #     "book": 45,
 #     "map": 3
 # }
-# goods["paper"] = 30
+# goods["paper"] -= 30
 # print(goods)
+#
+# num = 1
+# num = num + 2
+# num += 2
+#
+# num = num - 1
+# num -= 1
 
 #28
 # goods.clear()
@@ -213,7 +220,7 @@ print(countries.get("USA"))
 # animals["cat"] = "miyaw"
 # print(animals)
 
-#34
+#34 work on it !!! to use *=
 
 #35
 # students = {
@@ -229,25 +236,29 @@ print(countries.get("USA"))
 # else:
 #     print("Error")
 
-#37
+#37 !!! *=
 # towns = {
 #     "Ottawa": "1072 million",
 #     "Montreal": "1792 million",
 #     "Calgary": "1414 million"
 # }
-# towns["Ottawa"] = "2000 million"
+# towns["Ottawa"] -= "2000 million"
 # print(towns)
 
 #38
 # towns.pop("Calgary")
 # print(towns)
 
-#39
+#39 Error (this is how should be, but we did not have class to how work with key yet)
 # games = {
 #     "Elden Ring": 96,
 #     "The Last of Us": 97,
 #     "Got of War: Ragnarok": 94
 # }
+# max_value = max(games, key=games.get)
+# print(max_value)
+
+# wrong what I did
 # if games["Elden Rings"] >= games["The Last of Us"] >= games["Got of War: Ragnarok"]:
 #     print("Elden Rings has the highest rating")
 # elif games["Elden Rings"] <= games["Last of Us"] >= games["Got of War: Ragnarok"]:
