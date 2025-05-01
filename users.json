@@ -5,6 +5,21 @@
     "birth_year": 2011
   },
   {
+    "photo": [
+      "https://instagram.com/photo1.png",
+      "https://instagram.com/photo2.png"
+    ],
+    "description": "Here is a short description",
+    "likes": 5,
+    "reposts": 1,
+    "place": "Bali, Kuta, Ardenia, 19",
+    "music": null,
+    "tags": [
+      "dimoka777",
+      "nazikteshebaeva"
+    ]
+  },
+  {
     "name": "Мария",
     "surname": "Морозов",
     "birth_year": 1981
