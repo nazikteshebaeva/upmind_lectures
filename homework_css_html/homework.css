@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+.top {
+    background: lightgreen;
+    height: 500px;
+    display: flex;
+    justify-content:
+    space-evenly;
+}
+
+.middle {
+    background: lightpink;
+    height: 1500px;
+    display: flex;
+}
+
+.bottom {
+    background: lightgreen;
+    height: 500px;
+}
+
+.photo {
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.top-right {
+    font-size: 20px;
+    padding: 60px;
+}
+
+.middle-left h1 {
+    position:relative;
+    font-size: 100px;
+    color: lightgreen;
+    left: 350px;
+    letter-spacing: 20px;
+}
+
+.middle-front {
+    position: relative;
+    top: 300px;
+    right: 200px;
+}
+
+.middle-front h1 {
+    font-size: 100px;
+    font-weight: 10;
+    color: lightgreen;
+    left: 350px;
+    letter-spacing: 20px;
+}
+
+.middle-front h4 {
+    letter-spacing: 10px;
+}
+
+.link {
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.blocks {
+    width: 100px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inner-box {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+.grid-responsive {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.middle-front-two {
+    position:relative;
+    top: 300px;
+    right: 200px;
+}
+
+.link {
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
