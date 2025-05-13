@@ -1,0 +1,86 @@
+
+h1{
+   color: blue;
+   font-weight: 500;
+}
+
+.h-coral-bold {
+    color: lightcoral;
+    front-weight: 600
+}
+
+#font30-color-green {
+    font-size: 30px;
+    color: green;
+}
+
+ul li {
+    color: red;
+}
+
+.list-black li {
+    color: black;
+}
+
+.list-black li:hover {
+    color: #1abc9c;
+}
+
+.container {
+    background-color: #f0f0f0;
+}
+
+.box {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #333;
+  margin: 20px;
+  background-color: red;
+  /*display: flex;*/
+}
+
+.box:hover {
+    background-color: darkgrey;
+}
+
+.inner-box {
+    width: 100px;
+    height: 100px;
+    background-color: green
+}
+
+.second-inner-box {
+    width: 100px;
+    height: 100px;
+    background-color: brown
+}
+
+
+
+.text-box {
+    width: 400px;
+    height: 400px;
+    background-color: #3498db;
+    display: flex;
+    /*text-align: center;
+    text-align: right;*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*.text {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}*/
+
+
+.demo-flex {
+    display:flex; gap:10px;
+}
+
+.responsive {
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
